@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tattoo</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar__logo">
+          <a href="#"><img src="medias/logo-lion.png" alt="logo-lion" /></a>
+        </div>
+
+        <ul class="navbar__ul">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Piercing</a></li>
+          <li><a href="#">Tatouage</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-discover-our-tattoos">
+        <div class="section-discover-our-tattoos__div">
+          <h1 class="section-discover-our-tattoos__div-h1">
+            <a href="#">Découvrir nos tatouages</a>
+          </h1>
+        </div>
+        <p class="section-discover-our-tattoos-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          reiciendis impedit libero recusandae repudiandae molestiae, quidem
+          magnam optio quisquam modi. Accusamus quod eos esse dolor quia rerum
+          voluptatum omnis natus. Fuga nulla fugiat deleniti illo odio
+          dignissimos dolore temporibus nisi aperiam distinctio voluptas est ad
+          amet esse asperiores, cum libero aut? Distinctio commodi nisi rerum
+          facilis, nemo, saepe ut blanditiis quibusdam quis ipsam, libero
+          dolores nostrum. Harum soluta fuga rerum consequatur eum repudiandae
+          temporibus quod dolore nesciunt, sunt autem dolorem?
+        </p>
+      </section>
+
+      <section class="section-our-piercings">
+        <h2 class="section-our-piercings-h2">Nos piercings</h2>
+        <div class="section-our-piercings__all-div">
+          <div class="section-our-piercings__all-div-one">
+            <img src="medias/piercing-oreille.jpg" alt="img-piercing-oreille" />
+            <p>Piercing oreille</p>
+          </div>
+          <div class="section-our-piercings__all-div-two">
+            <img src="medias/piercing-levre.jpg" alt="img-piercing-levre" />
+            <p>Piercing lèvre</p>
+          </div>
+          <div class="section-our-piercings__all-div-three">
+            <img src="medias/piercing-nez.jpg" alt="img-piercing-nez" />
+            <p>Piercing nez</p>
+          </div>
+        </div>
+        <p class="section-our-piercings__all-div-p">
+          <a href="#">Voir plus</a>
+        </p>
+      </section>
+      <section class="section-tattoos-form">
+        <section class="section-our-tattoos">
+          <h2 class="section-our-tattoos-h2">Nos tatouages</h2>
+          <div class="section-our-tattoos__all-div">
+            <div class="section-our-tattoos__all-div-one">
+              <img
+                src="medias/tatouage-biometrique.jpg"
+                alt="img-tattoo-biometrique"
+              />
+              <p>Tatouage biométrique</p>
+            </div>
+            <div class="section-our-tattoos__all-div-two">
+              <img
+                src="medias/tatouage-graphique.jpg"
+                alt="img-tattoo-graphique"
+              />
+              <p>Tatouage graphique</p>
+            </div>
+            <div class="section-our-tattoos__all-div-three">
+              <img
+                src="medias/tatouage-new-school-cartoon.jpg"
+                alt="img-tattoo-new-school-cartoon"
+              />
+              <p>Tatouage cartoon</p>
+            </div>
+          </div>
+          <p class="section-our-tattoos__all-div-p">
+            <a href="#">Voir plus</a>
+          </p>
+        </section>
+
+        <section class="section-form">
+          <fieldset>
+            <h3>contact</h3>
+              <div class="section-form__div">
+                <form action="#form" method="POST" class="section-form__div-form">
+                  <div>
+                    <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
+                  </div>
+                  <div id="form">
+                    <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
+                  </div>
+                  <div class="text">
+                    <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message" autocomplete="off"></textarea>
+                  </div>
+                  <div class="submit">
+                    <input name="submit" type="submit" value="ENVOYER" id="button-blue" />
+                    <div class="ease"></div>
+                  </div>
+                </form>
+                      
+              </fieldset>
+        </section>
+
+        </section>
+
+    </main>
+  </body>
+</html>
