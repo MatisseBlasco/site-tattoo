@@ -16,9 +16,9 @@
 
         <ul class="navbar__ul">
           <li><a href="#">Accueil</a></li>
-          <li><a href="#">Piercing</a></li>
-          <li><a href="#">Tatouage</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#piercing">Piercing</a></li>
+          <li><a href="#tattoo">Tatouage</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -26,7 +26,7 @@
       <section class="section-discover-our-tattoos">
         <div class="section-discover-our-tattoos__div">
           <h1 class="section-discover-our-tattoos__div-h1">
-            <a href="#">Découvrir nos tatouages</a>
+            <a href="#tattoo">Découvrir nos tatouages</a>
           </h1>
         </div>
         <p class="section-discover-our-tattoos-p">
@@ -42,7 +42,7 @@
         </p>
       </section>
 
-      <section class="section-our-piercings">
+      <section id="piercing" class="section-our-piercings">
         <h2 class="section-our-piercings-h2">Nos piercings</h2>
         <div class="section-our-piercings__all-div">
           <div class="section-our-piercings__all-div-one">
@@ -64,7 +64,7 @@
       </section>
       <section class="section-tattoos-form">
         <section class="section-our-tattoos">
-          <h2 class="section-our-tattoos-h2">Nos tatouages</h2>
+          <h2 id="tattoo" class="section-our-tattoos-h2">Nos tatouages</h2>
           <div class="section-our-tattoos__all-div">
             <div class="section-our-tattoos__all-div-one">
               <img
@@ -95,29 +95,57 @@
 
         <section class="section-form">
           <fieldset>
-            <h3>contact</h3>
-              <div class="section-form__div">
-                <form action="#form" method="POST" class="section-form__div-form">
-                  <div>
-                    <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Nom" id="name" autocomplete="off" />
-                  </div>
-                  <div id="form">
-                    <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" autocomplete="off" />
-                  </div>
-                  <div class="text">
-                    <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Message" autocomplete="off"></textarea>
-                  </div>
-                  <div class="submit">
-                    <input name="submit" type="submit" value="ENVOYER" id="button-blue" />
-                    <div class="ease"></div>
-                  </div>
-                </form>
-                      
-              </fieldset>
+            <div class="section-form__div">
+              <h2>Contact</h2>
+              <form id="contact" action="#form" method="POST" class="section-form__div-form">
+                <div>
+                  <input
+                    name="name"
+                    type="text"
+                    class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+                    placeholder="Nom"
+                    id="name"
+                    autocomplete="off"
+                  />
+                </div>
+                <div id="form">
+                  <input
+                    name="email"
+                    type="email"
+                    class="validate[required,custom[email]] feedback-input"
+                    id="email"
+                    placeholder="Email"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="text">
+                  <textarea
+                    name="message"
+                    class="validate[required,length[6,300]] feedback-input"
+                    id="message"
+                    placeholder="Message"
+                    autocomplete="off"
+                  ></textarea>
+                </div>
+                <div class="submit">
+                  <input
+                    name="submit"
+                    type="submit"
+                    value="ENVOYER"
+                    id="button-blue"
+                  />
+                  <div class="ease"></div>
+                </div>
+              </form>
+            </div>
+          </fieldset>
         </section>
-
-        </section>
-
+      </section>
+      <div>
+        <footer>
+          &copy;Copyright 2021 Matisse Blasco - Tous droits réservés.
+        </footer>
+      </div>
     </main>
   </body>
 </html>
