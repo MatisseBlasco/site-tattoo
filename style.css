@@ -281,8 +281,6 @@ html {
   }
   .feedback-input:focus {
     background: #bebebe;
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
     border: 2px solid red;
     color: black;
     outline: none;
@@ -641,8 +639,6 @@ html {
   }
   .feedback-input:focus {
     background: #bebebe;
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
     border: 2px solid red;
     color: black;
     outline: none;
@@ -1001,8 +997,6 @@ html {
   }
   .feedback-input:focus {
     background: #bebebe;
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
     border: 2px solid red;
     color: black;
     outline: none;
@@ -1372,8 +1366,6 @@ html {
   }
   .feedback-input:focus {
     background: #bebebe;
-    -webkit-box-shadow: 0;
-            box-shadow: 0;
     border: 2px solid red;
     color: black;
     outline: none;
