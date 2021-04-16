@@ -10,6 +10,17 @@ html {
 }
 
 @media screen and (min-width: 1400px) {
+  main .btn {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 45px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  main .icon {
+    width: 50px;
+  }
   .navbar {
     width: 100%;
     height: auto;
@@ -356,6 +367,17 @@ html {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1399px) {
+  main .btn {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 45px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  main .icon {
+    width: 50px;
+  }
   .navbar {
     width: 100%;
     height: auto;
@@ -702,6 +724,17 @@ html {
 }
 
 @media screen and (min-width: 500px) and (max-width: 899px) {
+  main .btn {
+    width: 35px;
+    position: fixed;
+    right: 20px;
+    bottom: 45px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  main .icon {
+    width: 35px;
+  }
   .navbar {
     width: 100%;
     height: auto;
@@ -1048,6 +1081,17 @@ html {
 }
 
 @media screen and (min-width: 280px) and (max-width: 499px) {
+  main .btn {
+    width: 30px;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  main .icon {
+    width: 30px;
+  }
   .overlay {
     height: 100%;
     width: 0;
