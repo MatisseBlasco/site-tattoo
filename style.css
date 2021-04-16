@@ -108,14 +108,14 @@ html {
   .section-discover-our-tattoos__div-h1 a:hover {
     color: red;
   }
-  .section-paragraph {
+  .div-paragraph {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraph p {
+  .div-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -177,7 +177,7 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-tattoos-form {
+  .div-tattoos-form {
     background: url("medias/fond.png") center center no-repeat;
     background-size: cover;
     width: 100%;
@@ -469,14 +469,14 @@ html {
   .section-discover-our-tattoos__div-h1 a:hover {
     color: red;
   }
-  .section-paragraph {
+  .div-paragraph {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraph p {
+  .div-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -538,7 +538,7 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-tattoos-form {
+  .div-tattoos-form {
     background: url("medias/fond.png") center center no-repeat;
     background-size: cover;
   }
@@ -827,14 +827,14 @@ html {
   .section-discover-our-tattoos__div-h1 a:hover {
     color: red;
   }
-  .section-paragraph {
+  .div-paragraph {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraph p {
+  .div-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -896,7 +896,7 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-tattoos-form {
+  .div-tattoos-form {
     background: url("medias/fond.png") center center no-repeat;
     background-size: cover;
   }
@@ -1196,14 +1196,14 @@ html {
   .section-discover-our-tattoos__div-h1 a:hover {
     color: red;
   }
-  .section-paragraph {
+  .div-paragraph {
     margin-top: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraph p {
+  .div-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1265,7 +1265,7 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-tattoos-form {
+  .div-tattoos-form {
     background: url("medias/fond.png") center center no-repeat;
     background-size: cover;
   }
