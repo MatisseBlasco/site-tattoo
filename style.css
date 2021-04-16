@@ -180,6 +180,9 @@ html {
   .section-tattoos-form {
     background: url("medias/fond.png") center center no-repeat;
     background-size: cover;
+    width: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
   }
   .section-our-tattoos-h2 {
     margin-top: 50px;
