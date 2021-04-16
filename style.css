@@ -105,14 +105,17 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-paragraphe {
+  .section-discover-our-tattoos__div-h1 a:hover {
+    color: red;
+  }
+  .section-paragraph {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraphe p {
+  .section-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -462,14 +465,17 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-paragraphe {
+  .section-discover-our-tattoos__div-h1 a:hover {
+    color: red;
+  }
+  .section-paragraph {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraphe p {
+  .section-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -819,14 +825,17 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-paragraphe {
+  .section-discover-our-tattoos__div-h1 a:hover {
+    color: red;
+  }
+  .section-paragraph {
     margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraphe p {
+  .section-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1080,7 +1089,7 @@ html {
   }
 }
 
-@media screen and (min-width: 280px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   main .btn {
     width: 30px;
     position: fixed;
@@ -1187,14 +1196,17 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-paragraphe {
+  .section-discover-our-tattoos__div-h1 a:hover {
+    color: red;
+  }
+  .section-paragraph {
     margin-top: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     height: 200px;
   }
-  .section-paragraphe p {
+  .section-paragraph p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

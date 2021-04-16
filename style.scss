@@ -100,11 +100,15 @@ html {
           text-decoration: none;
           color: black;
         }
+
+        a:hover {
+          color: red;
+        }
       }
     }
   }
   //PARAGRAPHE**********************************************
-  .section-paragraphe {
+  .section-paragraph {
     margin-top: 50px;
     display: flex;
     height: 200px;
@@ -438,11 +442,15 @@ html {
           text-decoration: none;
           color: black;
         }
+
+        a:hover {
+          color: red;
+        }
       }
     }
   }
   //PARAGRAPHE**********************************************
-  .section-paragraphe {
+  .section-paragraph {
     margin-top: 50px;
     display: flex;
     height: 200px;
@@ -776,11 +784,15 @@ html {
           text-decoration: none;
           color: black;
         }
+
+        a:hover {
+          color: red;
+        }
       }
     }
   }
   //PARAGRAPHE**********************************************
-  .section-paragraphe {
+  .section-paragraph {
     margin-top: 50px;
     display: flex;
     height: 200px;
@@ -1024,7 +1036,7 @@ html {
   }
 }
 
-@media screen and (min-width: 280px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   //SCROLL-TOP*********************************************
   main {
     .btn {
@@ -1133,11 +1145,15 @@ html {
           text-decoration: none;
           color: black;
         }
+
+        a:hover {
+          color: red;
+        }
       }
     }
   }
-  //PARAGRAPHE**********************************************
-  .section-paragraphe {
+  //PARAGRAPH**********************************************
+  .section-paragraph {
     margin-top: 35px;
     display: flex;
     height: 200px;
