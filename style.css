@@ -12,9 +12,12 @@ html {
 @media screen and (min-width: 1400px) {
   .navbar {
     width: 100%;
-    height: 150px;
+    height: auto;
     background-color: white;
     border-bottom: 2px solid black;
+  }
+  .navbar #hamburger > img {
+    display: none;
   }
   .navbar__logo {
     display: -webkit-box;
@@ -40,6 +43,7 @@ html {
   }
   .navbar__ul li {
     margin-top: -15px;
+    margin-bottom: 5px;
     padding: 0 35px;
     list-style: none;
   }
@@ -87,14 +91,30 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-discover-our-tattoos-p {
+  .section-paragraphe {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+  }
+  .section-paragraphe p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 1.2rem;
     font-weight: 500;
-    margin: 125px 200px 0px;
+    margin: 0px 200px;
     text-align: justify;
   }
   .section-our-piercings-h2 {
-    margin-top: 250px;
+    margin-top: 50px;
     text-align: center;
     font-size: 1.7rem;
     font-weight: 700;
@@ -113,7 +133,7 @@ html {
     height: 250px;
   }
   .section-our-piercings__all-div p {
-    margin-top: 10px;
+    padding: 15px;
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
@@ -145,7 +165,7 @@ html {
     background-size: cover;
   }
   .section-our-tattoos-h2 {
-    margin-top: 75px;
+    margin-top: 50px;
     text-align: center;
     font-size: 1.7rem;
     font-weight: 700;
@@ -165,7 +185,7 @@ html {
   }
   .section-our-tattoos__all-div p {
     font-weight: 600;
-    margin-top: 10px;
+    padding: 15px;
     font-size: 1.2rem;
     text-align: center;
   }
@@ -310,6 +330,7 @@ html {
     background-color: white;
   }
   footer {
+    margin-top: 20px;
     background-color: white;
     color: black;
     margin-bottom: 0px;
@@ -331,12 +352,15 @@ html {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1399px) {
+@media screen and (min-width: 900px) and (max-width: 1399px) {
   .navbar {
     width: 100%;
-    height: 150px;
+    height: auto;
     background-color: white;
     border-bottom: 2px solid black;
+  }
+  .navbar #hamburger > img {
+    display: none;
   }
   .navbar__logo {
     display: -webkit-box;
@@ -362,6 +386,7 @@ html {
   }
   .navbar__ul li {
     margin-top: -15px;
+    margin-bottom: 5px;
     padding: 0 35px;
     list-style: none;
   }
@@ -409,14 +434,30 @@ html {
     text-decoration: none;
     color: black;
   }
-  .section-discover-our-tattoos-p {
+  .section-paragraphe {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+  }
+  .section-paragraphe p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 1.2rem;
     font-weight: 500;
-    margin: 125px 200px 0px;
+    margin: 0px 200px;
     text-align: justify;
   }
   .section-our-piercings-h2 {
-    margin-top: 250px;
+    margin-top: 50px;
     text-align: center;
     font-size: 1.7rem;
     font-weight: 700;
@@ -435,7 +476,7 @@ html {
     height: 250px;
   }
   .section-our-piercings__all-div p {
-    margin-top: 10px;
+    padding: 15px;
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
@@ -467,7 +508,7 @@ html {
     background-size: cover;
   }
   .section-our-tattoos-h2 {
-    margin-top: 75px;
+    margin-top: 50px;
     text-align: center;
     font-size: 1.7rem;
     font-weight: 700;
@@ -487,7 +528,7 @@ html {
   }
   .section-our-tattoos__all-div p {
     font-weight: 600;
-    margin-top: 10px;
+    padding: 15px;
     font-size: 1.2rem;
     text-align: center;
   }
@@ -514,6 +555,7 @@ html {
     color: black;
   }
   .section-form {
+    margin-top: 50px;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -632,12 +674,715 @@ html {
     background-color: white;
   }
   footer {
+    margin-top: 20px;
     background-color: white;
     color: black;
     margin-bottom: 0px;
     border-top: 2px solid black;
     height: 40px;
     font-weight: 600;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 899px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-bottom: 2px solid black;
+  }
+  .navbar #hamburger > img {
+    display: none;
+  }
+  .navbar__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar__logo img {
+    width: 100px;
+  }
+  .navbar__ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar__ul li {
+    padding: 0 15px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+  }
+  .navbar__ul li a:hover {
+    color: red;
+  }
+  .section-discover-our-tattoos {
+    background: url(medias/wallpaper-banner.jpg) center center no-repeat;
+    height: 400px;
+    background-size: cover;
+  }
+  .section-discover-our-tattoos__div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 90%;
+    width: 100%;
+  }
+  .section-discover-our-tattoos__div-h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    padding: 15px;
+    border: solid 2px black;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+  }
+  .section-discover-our-tattoos__div-h1 a {
+    text-decoration: none;
+    color: black;
+  }
+  .section-paragraphe {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+  }
+  .section-paragraphe p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0px 25px;
+    text-align: justify;
+  }
+  .section-our-piercings-h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  .section-our-piercings__all-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 50px 150px;
+  }
+  .section-our-piercings__all-div img {
+    height: 250px;
+  }
+  .section-our-piercings__all-div p {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .section-our-piercings__all-div-p {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+  }
+  .section-our-piercings__all-div-p a {
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  .section-tattoos-form {
+    background: url("medias/fond.png") center center no-repeat;
+    background-size: cover;
+  }
+  .section-our-tattoos-h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  .section-our-tattoos__all-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 50px 150px;
+  }
+  .section-our-tattoos__all-div img {
+    height: 250px;
+  }
+  .section-our-tattoos__all-div p {
+    font-weight: 600;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .section-our-tattoos__all-div-p {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+  }
+  .section-our-tattoos__all-div-p a {
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  .section-form {
+    margin-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-form fieldset {
+    border: 2px solid black;
+  }
+  .section-form h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .section-form__div {
+    background-color: #e7e7e7;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 110px;
+    width: 350px;
+    height: 375px;
+  }
+  .feedback-input {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #ffffff;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+  }
+  .feedback-input:focus {
+    background: #bebebe;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+    border: 2px solid red;
+    color: black;
+    outline: none;
+    padding: 13px 13px 13px 54px;
+  }
+  ::-webkit-input-placeholder {
+    color: black;
+  }
+  :-ms-input-placeholder {
+    color: black;
+  }
+  ::-ms-input-placeholder {
+    color: black;
+  }
+  ::placeholder {
+    color: black;
+  }
+  .focused {
+    color: white;
+    border: red solid 3px;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
+    background-color: #bebebe;
+  }
+  #button-blue {
+    float: left;
+    width: 100%;
+    border: white solid 2px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+  }
+  #button-blue:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+  }
+  .submit:hover {
+    color: red;
+  }
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  .submit:hover .ease {
+    width: 100%;
+    background-color: white;
+  }
+  footer {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 0px;
+    border-top: 2px solid black;
+    height: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 499px) {
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #b4b4b4;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .overlay a:hover,
+  .overlay a:focus {
+    color: red;
+  }
+  .overlay .closebtn {
+    display: block;
+    position: absolute;
+    color: red;
+    top: 10px;
+    left: 10px;
+    font-size: 60px;
+  }
+  #hamburger > img {
+    width: 75px;
+    right: 10px;
+    top: 15px;
+    position: absolute;
+  }
+  .navbar {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    border-bottom: 2px solid black;
+  }
+  .navbar__logo {
+    position: absolute;
+    left: 10px;
+    width: 75px;
+  }
+  .navbar__logo img {
+    width: 75px;
+  }
+  .section-discover-our-tattoos {
+    background: url(medias/wallpaper-banner.jpg) center center no-repeat;
+    height: 400px;
+    background-size: cover;
+  }
+  .section-discover-our-tattoos__div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 90%;
+    width: 100%;
+  }
+  .section-discover-our-tattoos__div-h1 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    padding: 7.5px;
+    border: solid 2px black;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+  }
+  .section-discover-our-tattoos__div-h1 a {
+    text-decoration: none;
+    color: black;
+  }
+  .section-paragraphe {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 200px;
+  }
+  .section-paragraphe p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0px 0px;
+    text-align: justify;
+  }
+  .section-our-piercings-h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  .section-our-piercings__all-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 50px 150px;
+  }
+  .section-our-piercings__all-div img {
+    height: 250px;
+  }
+  .section-our-piercings__all-div p {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .section-our-piercings__all-div-p {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+  }
+  .section-our-piercings__all-div-p a {
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  .section-tattoos-form {
+    background: url("medias/fond.png") center center no-repeat;
+    background-size: cover;
+  }
+  .section-our-tattoos-h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  .section-our-tattoos__all-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 50px 150px;
+  }
+  .section-our-tattoos__all-div img {
+    height: 250px;
+  }
+  .section-our-tattoos__all-div p {
+    font-weight: 600;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .section-our-tattoos__all-div-p {
+    margin: 0 auto;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+            box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.45);
+  }
+  .section-our-tattoos__all-div-p a {
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  .section-form {
+    margin-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-form fieldset {
+    border: 2px solid black;
+  }
+  .section-form h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .section-form__div {
+    background-color: #e7e7e7;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    width: auto;
+    height: 375px;
+  }
+  .feedback-input {
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #ffffff;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+  }
+  .feedback-input:focus {
+    background: #bebebe;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+    border: 2px solid red;
+    color: black;
+    outline: none;
+    padding: 13px 13px 13px 54px;
+  }
+  ::-webkit-input-placeholder {
+    color: black;
+  }
+  :-ms-input-placeholder {
+    color: black;
+  }
+  ::-ms-input-placeholder {
+    color: black;
+  }
+  ::placeholder {
+    color: black;
+  }
+  .focused {
+    color: white;
+    border: red solid 3px;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  input:hover,
+  textarea:hover,
+  input:focus,
+  textarea:focus {
+    background-color: #bebebe;
+  }
+  #button-blue {
+    float: left;
+    width: 100%;
+    border: white solid 2px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+  }
+  #button-blue:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+  }
+  .submit:hover {
+    color: red;
+  }
+  .ease {
+    width: 0px;
+    height: 74px;
+    background-color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+  }
+  .submit:hover .ease {
+    width: 100%;
+    background-color: white;
+  }
+  footer {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 0px;
+    border-top: 2px solid black;
+    height: 40px;
+    font-weight: 600;
+    font-size: 0.9rem;
     text-transform: uppercase;
     display: -webkit-box;
     display: -ms-flexbox;

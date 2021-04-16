@@ -10,16 +10,22 @@
   <body>
     <header>
       <nav class="navbar">
+        <div onclick="openNav()" id="hamburger">
+          <img src="medias/menu-hamburger-black-red.jpg" alt="menu-hamburger">
+      </div>
         <div class="navbar__logo">
           <a href="#"><img src="medias/logo-lion.png" alt="logo-lion" /></a>
         </div>
-
-        <ul class="navbar__ul">
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#piercing">Piercing</a></li>
-          <li><a href="#tattoo">Tatouage</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <ul class="navbar__ul">
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#piercing">Piercing</a></li>
+              <li><a href="#tattoo">Tatouage</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
       </nav>
     </header>
     <main>
@@ -29,6 +35,9 @@
             <a href="#tattoo">Découvrir nos tatouages</a>
           </h1>
         </div>
+      </section>
+
+      <section class="section-paragraphe">
         <p class="section-discover-our-tattoos-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
           reiciendis impedit libero recusandae repudiandae molestiae, quidem
@@ -97,7 +106,12 @@
           <fieldset>
             <div class="section-form__div">
               <h2>Contact</h2>
-              <form id="contact" action="#form" method="POST" class="section-form__div-form">
+              <form
+                id="contact"
+                action="#form"
+                method="POST"
+                class="section-form__div-form"
+              >
                 <div>
                   <input
                     name="name"
@@ -140,12 +154,13 @@
             </div>
           </fieldset>
         </section>
+        <div>
+          <footer>
+            &copy;Copyright 2021 Matisse Blasco - Tous droits réservés.
+          </footer>
+        </div>
       </section>
-      <div>
-        <footer>
-          &copy;Copyright 2021 Matisse Blasco - Tous droits réservés.
-        </footer>
-      </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
