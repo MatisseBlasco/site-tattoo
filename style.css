@@ -1132,9 +1132,9 @@ html {
     font-size: 60px;
   }
   #hamburger > img {
-    width: 75px;
+    width: 50px;
     right: 10px;
-    top: 15px;
+    top: 20px;
     position: absolute;
   }
   .navbar {
@@ -1145,11 +1145,12 @@ html {
   }
   .navbar__logo {
     position: absolute;
+    top: 5px;
     left: 10px;
-    width: 75px;
+    width: 65px;
   }
   .navbar__logo img {
-    width: 75px;
+    width: 65px;
   }
   .section-discover-our-tattoos {
     background: url(medias/wallpaper-banner.jpg) center center no-repeat;

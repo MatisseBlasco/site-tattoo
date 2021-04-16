@@ -1084,9 +1084,9 @@ html {
   }
 
   #hamburger > img {
-    width: 75px;
+    width: 50px;
     right: 10px;
-    top: 15px;
+    top: 20px;
     position: absolute;
   }
 
@@ -1098,11 +1098,12 @@ html {
 
     &__logo {
       position: absolute;
+      top: 5px;
       left: 10px;
-      width: 75px;
+      width: 65px;
 
       img {
-        width: 75px;
+        width: 65px;
       }
     }
   }
